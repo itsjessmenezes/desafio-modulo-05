@@ -1,0 +1,81 @@
+.clients-page {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-clients-page {
+  width: 1120px;
+  margin: 33px auto;
+}
+
+.menu-clientes {
+  display: flex;
+  width: 1120px;
+  height: 45px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clients-page-icon,
+.clients-page-info {
+  display: flex;
+  justify-content: space-between;
+}
+.clients-page-icon {
+  width: 154px;
+}
+
+.clients-page-icon span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.clients-page-info {
+  min-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.add-btn {
+  background-color: var(--pink);
+  display: flex;
+
+  color: var(--light-grey);
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.input-search {
+  background-color: #ffffff;
+  display: flex;
+  width: 322px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 10px;
+
+  color: #747488;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+}
+
+.clientSettings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+
+  width: 40px;
+  height: 40px;
+
+  background: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}

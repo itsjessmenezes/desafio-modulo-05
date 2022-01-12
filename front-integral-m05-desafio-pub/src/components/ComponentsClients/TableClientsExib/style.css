@@ -1,0 +1,77 @@
+.table-clients {
+  /* align-self: center; */
+  margin: 0 4.2rem;
+}
+
+.status-color {
+  width: 9.9rem;
+  height: 1.9rem;
+
+  background: #ffefef;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 8px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.color-red {
+  background: #ffefef;
+  color: #971d1d;
+}
+.color-green {
+  background: #eef6f6;
+  color: #1fa7af;
+}
+
+.btn_detailClient:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container-Iconbillings {
+  cursor: pointer;
+  width: 35px;
+  height: 38px;
+
+  display: flex;
+  flex-direction: column;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 11px;
+
+  color: #da0175;
+}
+
+.card-not-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-not-found p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.card-not-found p:first-of-type {
+  margin-bottom: 16px;
+  color: #f08889;
+  font-size: 28px;
+}
+
+.card-not-found p:last-of-type {
+  margin-bottom: 40px;
+  color: #9b9bb2;
+  font-size: 24px;
+}
